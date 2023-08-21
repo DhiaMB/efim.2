@@ -16,7 +16,7 @@ class _MainPageViewState extends State<MainPageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.grey[400],
+        backgroundColor: Colors.red[200],
         body: Column(
           children: [
             //apbbar
@@ -36,7 +36,6 @@ class _MainPageViewState extends State<MainPageView> {
                   Container(
                       padding: EdgeInsets.all(1),
                       decoration: BoxDecoration(
-                        color: const Color.fromARGB(213, 158, 158, 158),
                         shape: BoxShape.circle,
                       ),
                       child: PopupMenuButton<MenuAction>(
